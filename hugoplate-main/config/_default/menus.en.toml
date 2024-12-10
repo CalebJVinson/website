@@ -1,0 +1,63 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[main]]
+name = "About"
+url = "/about"
+weight = 2
+
+[[main]]
+name = "Research"
+url = "/research"
+weight = 3
+
+[[main]]
+weight = 4
+name = "Pages"
+
+[[main]]
+parent = "Pages"
+name = "Project & Interest Posts"
+url = "/blog"
+
+[[main]]
+parent = "Pages"
+name = "Contact"
+url = "/contact"
+
+[[main]]
+parent = ""
+name = ""
+url = ""
+
+[[main]]
+parent = ""
+name = ""
+url = "/categories"
+
+[[main]]
+parent = ""
+name = ""
+url = ""
+
+
+# footer menu
+[[footer]]
+name = "About"
+url = "/about"
+weight = 1
+
+[[footer]]
+name = "Research"
+url = "/research"
+weight = 2
+
+[[footer]]
+name = "Privacy Policy"
+url = "/privacy-policy"
+weight = 3
